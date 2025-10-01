@@ -1,0 +1,5 @@
+.card{
+    width: 314px;
+     background: var(--green);
+      color: var(--yellow);
+}
