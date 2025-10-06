@@ -17,6 +17,7 @@ const offers = [
     title: "Oferta 3",
     description: "Descrição da oferta 3",
   },
+  
 ];
 
 export default function OffersLow() {

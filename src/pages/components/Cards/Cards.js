@@ -17,13 +17,15 @@ export default function Cards({ image, secondImage, description, link }) {
       <div className={styles.cardBody}>
         <div className={styles.secondImageWrapper}>
           <Link href={link}>
-            <Image
+
+           <Image
               src={secondImage}
               alt="Botão do card"
-              width={300}
-              height={107}
+              width={57.51}
+              height={64.62}
               className={styles.secondImg}
             />
+
           </Link>
         </div>
 

@@ -1,9 +1,9 @@
-import styles from './Clubes.module.css';
+import styles from './Empresarios.module.css';
 import Image from 'next/image';
 import Navbar from '@/pages/components/Navbar/Navbar';
 import Footer from '@/pages/components/Footer/Footer';
 import Link from 'next/link';
-export default function Clubes() {
+export default function Empresarios() {
     return (    
         <>
       <nav>

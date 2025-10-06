@@ -6,34 +6,35 @@ export default function Footer() {
     <footer>
       <div>
         <p>
-          <Image src="/public/Instagram.png"
+          Siga a Zilhos:
+          <Image src="/Instagram.png"
           width={48}
           height={48}
            />
-          <Image src="/public/tiktok.png"
+          <Image src="/tiktok.png"
            width={48}
           height={48} 
           
           />
-          <Image src="/public/X.png"
+          <Image src="/X.png"
            width={48}
           height={48} 
           />
-          <Image src="/public/youtube.png"
+          <Image src="/youtube.png"
            width={48}
           height={48}
            />
         </p>
       </div>
       <div>
-        <a href="">1</a>
-        <a href="">2</a>
-        <a href="">3</a>
-        <a href="">4</a>
-        <a href="">5</a>
-        <a href="">6</a>
-        <a href="">7</a>
-        <a href="">8</a>
+        <a href="">Jogador</a>
+        <a href="">Quem somos ?</a>
+        <a href="">Ajuda</a>
+        <a href="">Empresario</a>
+        <a href="">Cadastra-se</a>
+        <a href="">Página Inicial</a>
+        <a href="">Clube</a>
+        <a href="">Entrar</a>
       </div>
     </footer>
   );

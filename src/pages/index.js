@@ -9,31 +9,30 @@ export default function Home() {
       <Navbar />
       <div>
        <Cards
-        image="/imagemJogador.jpg"
-        secondImage="/btnJogador.png"
+        image="/imagemJogador.png"
+        secondImage="/player.png"
         description="Jogadores que buscam excelência e oportunidades no futebol."
-        link="/player"
+        link="/Player"
       />
 
       <Cards
-        image="/imagemEmpresario.jpg"
-        secondImage="/btnEmpresario.png"
-        description="Profissionais que apoiam e investem no desenvolvimento de atletas."
-        link="/empresario"
+        image="/imagemEmpresario.png"
+        secondImage="/empresario.png"
+        description="Gerenciam carreiras de atletas, negociam contratos e patrocínios."
+        link="/Empresarios"
       />
 
       <Cards
-        image="/imagemClube.jpg"
-        secondImage="/btnClube.png"
-        description="Clubes em busca de novos talentos e parcerias estratégicas."
-        link="/clube"
+        image="/imagemClube.png"
+        secondImage="/clube.png"
+        description="Organizações que competem, desenvolvem talentos e engajam torcedores."
+        link="/Clubes"
       />
       </div>
       <div>
         <OffersUpper />
         <OffersLow />
-        <OffersLow />
-        <OffersLow />
+       
       </div>
       <Footer />
     </>

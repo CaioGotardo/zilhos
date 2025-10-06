@@ -7,7 +7,7 @@ export default function OffersUpper(){
             <h1 className={styles.titulo}>Titulo</h1>
             <p className={styles.paragrafo}>paragrafo</p>
             <button className={styles.btn}>
-                botao 
+                Assinar  
             </button>
         </div>
     );
