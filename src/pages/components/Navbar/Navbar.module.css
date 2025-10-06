@@ -1,0 +1,40 @@
+.faixa-amarela {
+    background-color: #FFCC00;
+    width: 1265px;
+    height: 50px; 
+    
+}
+
+.banner{
+    background:linear-gradient(#0B5C00, #419C35); 
+    height: 259px;
+    width: 1265px;
+
+    display: flex;
+    flex-dirtection: row;
+    justify-content: space-between;
+}
+
+
+.logo{
+    align-self: center; 
+}
+
+.subtitulo{
+    font-style: bold;
+    color: #FFCC00;
+    font-family: "Kumbh Sans", sans-serif;
+
+    
+  
+}
+
+.menuHamburguer{
+    width: 40px;
+    height:30px;
+
+     margin-left: 22px;
+    mergin-right: 1218px
+  
+    
+}

@@ -1,9 +1,9 @@
-import styles from './Player.module.css';
+import styles from './Clubes.module.css';
 import Image from 'next/image';
 import Navbar from '@/pages/components/Navbar/Navbar';
 import Footer from '@/pages/components/Footer/Footer';
 import Link from 'next/link';
-export default function Player() {
+export default function Clubes() {
     return (    
         <>
       <nav>
@@ -11,8 +11,8 @@ export default function Player() {
       </nav>
       <div className={styles.cardEmpresario}>
         <Image 
-          src="/player.png" 
-          alt="imagem-player"
+          src="/empresario.png" 
+          alt="imagem-empresario"
           width={266}
           height={300}
         />
