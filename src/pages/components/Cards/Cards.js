@@ -1,34 +1,24 @@
-// Cards.jsx (vai renderizar apenas 1 card por vez)
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./Cards.module.css";
 
-export default function Cards({ image, secondImage, description, link }) {
+export default function Cards({ image, icon, title, description, link }) {
   return (
     <div className={styles.card}>
-      <Image
-        src={image}
-        alt="Imagem principal"
-        width={280}
-        height={271}
-        className={styles.imgFixa}
-      />
-
+      <div className={styles.cardImage}>
+        <Image
+          src={image}
+          alt={title}
+          width={280}
+          height={180}
+          className={styles.imgFixa}
+        />
+      </div>
       <div className={styles.cardBody}>
-        <div className={styles.secondImageWrapper}>
-          <Link href={link}>
-
-           <Image
-              src={secondImage}
-              alt="Botão do card"
-              width={57.51}
-              height={64.62}
-              className={styles.secondImg}
-            />
-
-          </Link>
+        <div className={styles.iconWrapper}>
+          <Image src={icon} alt={title} width={40} height={40} />
         </div>
-
+        <h3>{title}</h3>
         <p>{description}</p>
       </div>
     </div>
