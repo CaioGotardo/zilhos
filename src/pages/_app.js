@@ -5,11 +5,11 @@ import Who from "./components/Who/Who.js";
 import OffersUpper from "./components/Offers/OffersUpper/OffersUpper.js";
 import OffersLow from "./components/Offers/OffersLow/OffersLow.js";
 import Footer from "./components/Footer/Footer.js"
-import Player from "./pagesExtra/player/Player.js";
-
+import Player from "./components/player/Player.js";
+import Empresarios from "./components/empresarios/Empresarios.js";
 
 export default function App({}) {
-
+  
   return(
 <>
 <Home />

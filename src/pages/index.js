@@ -19,7 +19,7 @@ export default function Home() {
         image="/imagemEmpresario.png"
         secondImage="/empresario.png"
         description="Gerenciam carreiras de atletas, negociam contratos e patrocínios."
-        link="/Empresarios"
+        link="/empresarios"
       />
 
       <Cards
