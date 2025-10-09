@@ -3,6 +3,7 @@ import Cards from './components/Cards/Cards';
 import OffersUpper from './components/Offers/OffersUpper/OffersUpper';
 import OffersLow from './components/Offers/OffersLow/OffersLow';
 import Footer from './components/Footer/Footer';
+import QuemSomos from './components/QuemSomos/QuemSomos';
 export default function Home() {
   return (
     <>
@@ -33,6 +34,7 @@ export default function Home() {
       />
       </div>
       <div>
+        <QuemSomos />
         <OffersUpper />
         <OffersLow />
        

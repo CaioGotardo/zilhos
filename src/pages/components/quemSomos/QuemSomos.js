@@ -1,32 +1,36 @@
-import styles from "./Clubes.module.css";
+import styles from "./QuemSomos.module.css";
 import Image from "next/image";
-import Navbar from "@/pages/components/Navbar/Navbar";
 import Footer from "@/pages/components/Footer/Footer";
-import Link from "next/link";
 
-export default function Clubes() {
+export default function QuemSomos() {
   return (
     <>
-      <nav>
-        <Navbar />
-      </nav>
-      <div className={styles.containerFoto}>
-        <Image src="/fotoNossa.png" width={1120} height={510} alt="iamgem-fotoNossa" />
-      </div>
-      <div>
-        <p className={styles.paragrafo}>lorem</p>
-        <div className={styles.fotoSeparadas}>
-          <Image src="/fotoCaio.png" width={300} height={300} alt="imagem-caio" />
-          <Image src="/fotoEdu.png" width={300} height={300} alt="imagem-edu"/>
-          <Image src="/fotoJao.png" width={300} height={300} alt="imagem-jao"/>
-          <Image src="/fotoMat.png" width={300} height={300} alt="imagem-mat" />
-          <Image src="/fotoNat.png" width={300} height={300} alt="imagem-nat"/>
-          <Image src="/fotoKau.png" width={300} height={300} alt="imagem-kauan"/>
+
+      <div className={styles.main}>
+        <div className={styles.card}>
+          <h1 className={styles.titulo}>Quem Somos?</h1>
+        
+          <div className={styles.fotoContainer}>
+            <Image
+              src="/fotoNossa.png"
+              width={1120}
+              height={510}
+              alt="foto do grupo Ginga"
+              className={styles.foto}
+            />
+          </div>
+
+          <p className={styles.texto}>
+         Na Zilhos, acreditamos que o talento precisa estar no lugar certo para brilhar. 
+         Somos uma ponte estratégica que conecta atletas de futebol, empresários e clubes, 
+         criando oportunidades reais para que carreiras sejam construídas com solidez e transparência. 
+         Nosso trabalho vai além da simples intermediação: entendemos as necessidades de cada parte envolvida, 
+         buscamos parcerias justas e fortalecemos relações que geram resultados. Com dedicação, profissionalismo
+         e paixão pelo futebol, transformamos potenciais em histórias de sucesso, ajudando cada atleta a chegar mais longe.
+          </p>
         </div>
       </div>
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </>
   );
 }
