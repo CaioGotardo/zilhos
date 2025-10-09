@@ -7,24 +7,27 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <div>
+      <div className='flex justify-around'>
        <Cards
         image="/imagemJogador.png"
-        secondImage="/player.png"
+        icon="/player.png"
+        title="Jogador"
         description="Jogadores que buscam excelência e oportunidades no futebol."
         link="/Player"
       />
 
       <Cards
         image="/imagemEmpresario.png"
-        secondImage="/empresario.png"
+        icon="/empresario.png"
+        title="Empresário"
         description="Gerenciam carreiras de atletas, negociam contratos e patrocínios."
         link="/empresarios"
       />
 
       <Cards
         image="/imagemClube.png"
-        secondImage="/clube.png"
+        icon="/clube.png"
+        title="Clube"
         description="Organizações que competem, desenvolvem talentos e engajam torcedores."
         link="/Clubes"
       />

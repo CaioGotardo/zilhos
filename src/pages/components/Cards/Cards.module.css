@@ -1,0 +1,66 @@
+.card{
+    background-color: #419C35; /* fundo verde principal */
+    border: 24px solid #419C35; /* borda verde escura (ajuste se quiser mais ou menos intensa) */
+    border-radius: 20px;
+    width: 340px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-top: 50px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cardImage img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.cardBody{
+    margin-bottom: 10px;
+}
+
+.iconWrapper{
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconWrapper img{
+    width: 70px;
+    height: 70px;    
+    margin-top: 10px;
+}
+
+.title{
+    color: #FFCC00;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.description{
+    color: #FFCC00;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+/*container dos cards*/
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
