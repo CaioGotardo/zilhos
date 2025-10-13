@@ -9,12 +9,12 @@ export default function Home() {
     <>
       <Navbar />
       <div className='flex justify-around'>
-       <Cards
+      <Cards
         image="/imagemJogador.png"
         icon="/player.png"
         title="Jogador"
         description="Jogadores que buscam excelência e oportunidades no futebol."
-        link="/pages/Player"
+        link="/player"
       />
 
       <Cards
