@@ -3,7 +3,7 @@ import Cards from './components/Cards/Cards';
 import OffersUpper from './components/Offers/OffersUpper/OffersUpper';
 import OffersLow from './components/Offers/OffersLow/OffersLow';
 import Footer from './components/Footer/Footer';
-import QuemSomos from './components/QuemSomos/QuemSomos';
+import QuemSomos from './components/quemSomos/QuemSomos';
 export default function Home() {
   return (
     <>
@@ -14,7 +14,7 @@ export default function Home() {
         icon="/player.png"
         title="Jogador"
         description="Jogadores que buscam excelência e oportunidades no futebol."
-        link="/Player"
+        link="/pages/Player"
       />
 
       <Cards
@@ -35,11 +35,15 @@ export default function Home() {
       </div>
       <div>
         <QuemSomos />
+      </div>
+      <div>
         <OffersUpper />
         <OffersLow />
-       
       </div>
+      <div>
       <Footer />
+      </div>
+      
     </>
   );
 }

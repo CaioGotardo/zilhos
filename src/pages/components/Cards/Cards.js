@@ -16,7 +16,9 @@ export default function Cards({ image, icon, title, description, link }) {
       </div>
       <div className={styles.cardBody}>
         <div className={styles.iconWrapper}>
+          <Link href={link}>
           <Image src={icon} alt={title} width={40} height={40} />
+          </Link>
         </div>
         <h3 className={styles.title}>{title}</h3>
         <p className={styles.description}>{description}</p>

@@ -1,0 +1,63 @@
+.cardSuperior {
+  width: 1115px;
+  height: 428px;
+  border-radius: 25px;
+  background-color: #9FD997; /* nova cor do card */
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+.titulo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0B5C00; /* nova cor do título */
+  margin-bottom: 20px;
+}
+
+.paragrafo {
+  font-size: 1.2rem;
+  color: #0B5C00; /* nova cor do parágrafo */
+  margin-bottom: 40px; /* aumentei o espaçamento para o botão descer */
+  text-align: center;
+  max-width: 800px;
+}
+
+.btn {
+  background-color: #FFCC00; /* nova cor do botão */
+  color: #0B5C00;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-top: 10px; /* leve distância extra se quiser */
+}
+
+.btn:hover {
+  background-color: #e6b800;
+}
+
+/* Responsividade */
+@media (max-width: 1200px) {
+  .cardSuperior {
+    width: 100%;
+    max-width: 95%;
+    height: auto;
+    padding: 30px 20px;
+  }
+
+  .titulo {
+    font-size: 1.8rem;
+  }
+
+  .paragrafo {
+    font-size: 1rem;
+  }
+}

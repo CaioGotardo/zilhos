@@ -1,4 +1,4 @@
-import styles from './Player.module.css';
+ import styles from './Player.module.css';
 import Image from 'next/image';
 import Navbar from '@/pages/components/Navbar/Navbar';
 import Footer from '@/pages/components/Footer/Footer';

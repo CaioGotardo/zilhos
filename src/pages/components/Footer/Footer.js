@@ -3,26 +3,27 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer>
+<footer>
+
       <div>
         <p>
           Siga a Zilhos:
           <Image src="/Instagram.png"
           width={48}
           height={48}
-           />
+          />
           <Image src="/tiktok.png"
            width={48}
-          height={48} 
-          
-          />
+           height={48} 
+           
+           />
           <Image src="/X.png"
            width={48}
           height={48} 
           />
           <Image src="/youtube.png"
            width={48}
-          height={48}
+           height={48}
            />
         </p>
       </div>
@@ -36,6 +37,6 @@ export default function Footer() {
         <a href="">Clube</a>
         <a href="">Entrar</a>
       </div>
-    </footer>
+           </footer>
   );
 }
