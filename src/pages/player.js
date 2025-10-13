@@ -1,4 +1,4 @@
-import Player from './components/player/Player';
+import Player from "./components/Player/Player";
 
 export default function PlayerPage() {
   return <Player />;

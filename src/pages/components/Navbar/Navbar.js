@@ -5,12 +5,9 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <nav className={styles.navbar}>
-      {/* Faixa amarela superior */}
       <div className={styles.faixaAmarela}></div>
 
-      {/* Banner verde */}
       <div className={styles.banner}>
-        {/* Seta de voltar */}
         <div className={styles.setaVoltar}>
           <Link href="/">
             <Image
@@ -22,20 +19,20 @@ export default function Navbar() {
           </Link>
         </div>
 
-        {/* Logo centralizada */}
         <div className={styles.Logo}>
+          <Link href="/">
           <Image
             src="/Logo.png"
             alt="imagem-logo"
             width={416.45}
             height={105.39}
-          />
+            />
+            </Link>
           <p className={styles.subtitulo}>
             Plantando sementes, colhendo campeões
           </p>
         </div>
 
-        {/* Menu hamburguer */}
         <div className={styles.menuHamburguer}>
           <Image
             src="/menu-hamburguer.png"

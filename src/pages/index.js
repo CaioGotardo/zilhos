@@ -4,6 +4,7 @@ import OffersUpper from './components/Offers/OffersUpper/OffersUpper';
 import OffersLow from './components/Offers/OffersLow/OffersLow';
 import Footer from './components/Footer/Footer';
 import QuemSomos from './components/quemSomos/QuemSomos';
+
 export default function Home() {
   return (
     <>
@@ -14,7 +15,7 @@ export default function Home() {
         icon="/player.png"
         title="Jogador"
         description="Jogadores que buscam excelência e oportunidades no futebol."
-        link="/player"
+        link= "/player"
       />
 
       <Cards
@@ -22,7 +23,7 @@ export default function Home() {
         icon="/empresario.png"
         title="Empresário"
         description="Gerenciam carreiras de atletas, negociam contratos e patrocínios."
-        link="/empresarios"
+        link="/empresario"
       />
 
       <Cards
@@ -30,7 +31,7 @@ export default function Home() {
         icon="/clube.png"
         title="Clube"
         description="Organizações que competem, desenvolvem talentos e engajam torcedores."
-        link="/Clubes"
+        link="/clubes"
       />
       </div>
       <div>
