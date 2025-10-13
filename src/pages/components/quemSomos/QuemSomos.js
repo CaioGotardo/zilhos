@@ -12,7 +12,7 @@ export default function QuemSomos() {
         
           <div className={styles.fotoContainer}>
             <Image
-              src="/fotoNossa.png"
+              src="/Logo.png"
               width={1040}
               height={331}
               alt="foto do grupo Ginga"
