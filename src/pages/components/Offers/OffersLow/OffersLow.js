@@ -49,8 +49,8 @@ export default function OffersLow() {
           className={`${styles.card} ${offer.id === 2 ? styles.cardId2 : ""}`}
         >
           <h3 className={styles.cardTitle}>{offer.title}</h3>
-          <p className={styles.cardPrice}>{offer.price}</p>
-          <p className={styles.cardDescription}>{offer.description}</p>
+          <h1 className={styles.cardPrice}>{offer.price}</h1>
+          <h1 className={styles.cardDescription}>{offer.description}</h1>
           <button className={styles.btn}>Assinar</button>
         </div>
       ))}
