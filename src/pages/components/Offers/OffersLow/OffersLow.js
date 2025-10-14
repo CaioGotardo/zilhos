@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./OffersLow.module.css";
-
+import Link from "next/link";
 const offers = [
   {
     id: 1,
@@ -51,7 +51,9 @@ export default function OffersLow() {
           <h3 className={styles.cardTitle}>{offer.title}</h3>
           <h1 className={styles.cardPrice}>{offer.price}</h1>
           <h1 className={styles.cardDescription}>{offer.description}</h1>
+          <Link href="/cadastro">
           <button className={styles.btn}>Assinar</button>
+          </Link>
         </div>
       ))}
     </div>
