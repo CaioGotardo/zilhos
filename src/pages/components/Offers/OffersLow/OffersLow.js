@@ -33,9 +33,7 @@ const offers = [
     description: (
       <ul>
         <li>Visibilidade do perfil: nível máximo</li>
-        <ul>
-        <p className="text">(acima do Premium, com destaque prioritário)</p>
-        </ul>
+        <li>(acima do Premium, com destaque prioritário)</li>
         <li>Postagens: ilimitadas</li>
         <li>Objetivo: oferecer um equilíbrio entre custo e benefício, permitindo maior presença na plataforma com um valor acessível.</li>
       </ul>
