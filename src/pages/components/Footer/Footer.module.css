@@ -1,0 +1,82 @@
+.footer {
+  width: 100%;
+  background: #419C35;
+  color: #FFCC00;
+  /* afasta o footer do conteúdo acima — ajuste se precisar */
+  /* se você quer fixar a posição, troque position/padding conforme necessário */
+}
+
+.container {
+  max-width: 1280px; /* conforme seu pedido */
+  height: 320px;     /* ajuste se quiser a altura maior (sua imagem parecia menor) */
+  padding: 24px 40px; /* topo/lat realista */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* alinha à esquerda como na imagem */
+  justify-content: flex-start; /* começa do topo do container */
+  gap: 24px;
+}
+
+/* Social (linha com texto + ícones) */
+.social {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.followText {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1;
+  color: #FFCC00;
+}
+
+/* os ícones em linha */
+.icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+/* Links: 3 colunas, cada coluna com seus links empilhados */
+.links {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px 250px; /* <-- aumentei o espaçamento horizontal entre colunas */
+}
+
+.links > div {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.links a {
+  color: #FFCC00;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.2;
+}
+
+
+/* hover simples */
+.links a:hover {
+  opacity: 0.9;
+  transform: none;
+}
+
+/* responsividade: empilha em telas pequenas */
+@media (max-width: 800px) {
+  .container {
+    padding: 20px;
+    height: auto;
+  }
+  .links {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px 24px;
+  }
+}
