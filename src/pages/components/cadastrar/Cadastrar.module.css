@@ -1,0 +1,30 @@
+.btnEntrar{
+    display: flex;
+    margin: 15px auto;
+    padding: 10 600px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #FFCC00;
+    color: #0B5C00;
+    font-weight: 700;
+}
+
+.JaPossui{
+    text-align: center;
+    color: #0B5C00;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;   
+}
+
+.btnCadastrar{
+    display: flex;
+    margin: 15px auto;
+    padding: 10 600px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #0B5C00;
+    color: #FFCC00;
+    font-weight: 700;
+    margin-bottom: 800px;
+}

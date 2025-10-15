@@ -9,13 +9,16 @@ export default function Entrar() {
     <Navbar />
 </nav>
 <div>
-    <input className={styles.input} type="text" placeholder='Email' />
-    <input className={styles.input} type="password" placeholder='Senha' />
+    <h1 className={styles.email}>Email: *</h1>
+    <input className={styles.input} type="text" placeholder='caiogotardo@gmail.com' />
+
+    <h1 className={styles.senha}>Senha: *</h1>
+    <input className={styles.input} type="password" placeholder='********' /> <br></br>
 
 <Link href="/">
 <button className={styles.btnEntrar}>Entrar</button>
 </Link>
-<p className={styles.paragrafo}>não possui uma conta?</p>
+<p className={styles.naoPossui}>não possui uma conta?</p>
 <Link href="/cadastrar">
 <button className={styles.btnCadastrar}>Cadastrar</button>
 </Link>

@@ -1,0 +1,58 @@
+.email{
+    color: #0B5C00;
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.input{
+    display: block;
+    width: 90%;
+    margin: 0 auto 20px auto;
+    padding: 12px 15px;
+    font-size: 20px;
+    font-weight: 200;
+    border: 2px solid #0B5C00;
+    outline: none;
+    margin-left: 20px;
+}
+
+.senha{
+    color: #0B5C00;
+    font-size: 20px;
+    margin: 20px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+
+.btnEntrar{
+    display: flex;
+    margin: 15px auto;
+    padding: 10 600px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #FFCC00;
+    color: #0B5C00;
+    font-weight: 700;
+}
+
+.naoPossui{
+    text-align: center;
+    color: #0B5C00;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;   
+}
+
+.btnCadastrar{
+    display: flex;
+    margin: 15px auto;
+    padding: 10 600px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #0B5C00;
+    color: #FFCC00;
+    font-weight: 700;
+    margin-bottom: 800px;
+}

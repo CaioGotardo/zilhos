@@ -36,9 +36,9 @@ export default function QuemSomosPage() {
           <p>Caio Gotardo</p>
         </div>
 
-        <div className={styles.membro}>
-          <Image src="/FotoEdu.png" width={300} height={300} alt="Eduardo Oliveira" />
-          <p>Eduardo Oliveira</p>
+      <div className={styles.membro}>
+          <Image src="/FotoKauan.png" width={300} height={300} alt="Kauan Mattos" />
+          <p>Kauan Mattos</p>
         </div>
 
         <div className={styles.membro}>
@@ -46,9 +46,9 @@ export default function QuemSomosPage() {
           <p>João Conturbia</p>
         </div>
 
-        <div className={styles.membro}>
-          <Image src="/FotoKauan.png" width={300} height={300} alt="Kauan Mattos" />
-          <p>Kauan Mattos</p>
+         <div className={styles.membro}>
+          <Image src="/FotoEdu.png" width={300} height={300} alt="Eduardo Oliveira" />
+          <p>Eduardo Oliveira</p>
         </div>
 
         <div className={styles.membro}>

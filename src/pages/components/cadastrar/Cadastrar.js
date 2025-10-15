@@ -17,11 +17,11 @@ export default function Cadastrar() {
     </button>
     </Link>
     <p className={styles.JaPossui}>
-        Já possui  conta?
+        já possui  conta?
     </p>
     <Link href="/cadastro">
     <button className={styles.btnCadastrar}>
-        Cadastrar
+        Cadastrar-se
         </button>
         </Link>
 </div>
