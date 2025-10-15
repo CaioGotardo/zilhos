@@ -19,7 +19,7 @@ export default function Cadastrar() {
     <p className={styles.JaPossui}>
         já possui  conta?
     </p>
-    <Link href="/cadastro">
+    <Link href="/Escolha">
     <button className={styles.btnCadastrar}>
         Cadastrar-se
         </button>
