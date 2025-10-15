@@ -1,55 +1,44 @@
 import Navbar from "../Navbar/Navbar";
 import Image from "next/image";
-import Link from "next/link"
+import Link from "next/link";
 import Footer from "../Footer/Footer";
-import style from "./escolha.module.css"
+import style from "./escolha.module.css";
 
-export default function Escolha(){
-    return(
-        <>
-        <nav>
+export default function Escolha() {
+  return (
+    <>
+      <nav>
         <Navbar />
-        </nav>
-    <div>
-<div className={style.Jogador}>
-    <Link href="">
-    <Image
-    src="/player.png" 
-    width={123}
-    height={151}
-    />
+      </nav>
 
-    </Link>
-    <p className={style.paragrafo}>Jogador </p>
+      <div className={style.container}>
+        <h1 className={style.tipoPerfil}>Qual tipo de perfil você pretende criar?</h1>
 
-</div>
-<div className={style.empresario}>
-    <Link  href="">
-    <Image
-    src="/empresario.png" 
-    width={123}
-    height={151}
-    />
+        <div className={style.opcao}>
+          <Link href="/cadastro/jogador" className={style.botao}>
+            <Image src="/player.png" width={70} height={70} alt="Jogador" />
+            <p>Jogador</p>
+          </Link>
+        </div>
 
-    </Link>
-    <p className={style.paragrafo}>Empresario </p>
+        <div className={style.opcao}>
+          <Link href="/cadastro/empresario" className={style.botao}>
+            <Image src="/empresario.png" width={70} height={70} alt="Empresário" />
+            <p>Empresário</p>
+          </Link>
+        </div>
 
-</div>
-<div className={style.clube}>
-    <Link  href="">
-    <Image
-    src="/clube.png" 
-    width={123}
-    height={151}
-    />
+        <div className={style.opcao}>
+          <Link href="/cadastro/clube" className={style.botao}>
+            <Image src="/clube.png" width={70} height={70} alt="Clube" />
+            <p>Clube</p>
+          </Link>
+        </div>
+      </div>
 
-    </Link>
-    <p className={style.paragrafo}>CLube </p>
-</div>
-    </div>
-    <footer>
+      <footer>
         <Footer />
-    </footer>
-        </>
-    )
+      </footer>
+    </>
+  );
 }
