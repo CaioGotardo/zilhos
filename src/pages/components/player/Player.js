@@ -44,7 +44,7 @@ export default function Player() {
           para o seu sucesso.
         </p>
 
-        <Link href="/">
+        <Link href="/cadastroj">
           <button className={styles.btn}>Criar Conta</button>
         </Link>
       </div>

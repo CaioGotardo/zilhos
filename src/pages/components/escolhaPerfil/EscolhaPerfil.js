@@ -11,15 +11,17 @@ export default function Clubes() {
         </nav>
         <div>
 
-       
          <div className={styles.cardPlayer}>
+       <Link href="/cadastroj">
+          
         <Image 
           src="/player.png" 
           alt="imagem-player"
           width={266}
           height={300}
-        />
+          />
         
+          </Link>
       </div>
          <div className={styles.cardEmpresario}>
         <Image 

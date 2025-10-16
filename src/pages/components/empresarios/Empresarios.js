@@ -42,7 +42,7 @@ export default function Empresario() {
         e construa um portfólio de campeões com dados, inteligência e as conexões certas.
         </p>
 
-        <Link href="/">
+        <Link href="/cadastroe">
           <button className={styles.btn}>Criar Conta</button>
         </Link>
       </div>

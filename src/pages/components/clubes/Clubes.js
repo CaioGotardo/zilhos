@@ -42,7 +42,7 @@ export default function Clube() {
           na nossa plataforma.
         </p>
 
-        <Link href="/">
+        <Link href="/cadastroc">
           <button className={styles.btn}>Criar Conta</button>
         </Link>
       </div>
