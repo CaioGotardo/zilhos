@@ -57,10 +57,10 @@ export default function Navbar() {
           className={`${styles.menuLateral} ${menuOpen ? styles.aberto : ""}`}
         >
           <h2 className={styles.tituloMenu}>Opções</h2>
-          <Link href="/login" className={styles.itemMenu}>
+          <Link href="/entrar" className={styles.itemMenu}>
             Entrar / Cadastrar-se
           </Link>
-          <Link href="/sobre" className={styles.itemMenu}>
+          <Link href="/quemSomosPage " className={styles.itemMenu}>
             Quem somos?
           </Link>
           <Link href="/ajuda" className={styles.itemMenu}>
